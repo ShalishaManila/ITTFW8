@@ -14,17 +14,24 @@ main{
 }
 
 .titlesection{
+    margin-top:20px;
+    margin-bottom:20px;
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
     font-family: vars.$main-font;
     &_firsthalf{
-        width: 55%;
+        width: 75%;
         >p{
             color:blue;
         }
         h2 >.titlecolor{
             color:blue;
+        }
+    }
+    &_secondhalf{
+        color:lightgray;
+        span{
+            border-top: 1px solid lightgray;
         }
     }
 }

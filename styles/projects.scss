@@ -12,10 +12,12 @@ main{
 }
 
 .firstsection{
+    margin-top:20px;
+    margin-bottom:20px;
     display:flex;
     justify-content: space-between;
     &_titlearea{
-        width: 55%;
+        width: 75%;
     }
     &_gridarea{
         display:grid;
