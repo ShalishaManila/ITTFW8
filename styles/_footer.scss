@@ -1,9 +1,8 @@
 .footerarea{
+    margin:vars.$margin;
     display: flex;
     align-items: baseline;
     justify-content: space-between;
-    margin-left: vars.$left-margin;
-    margin-right: vars.$right-margin;
 
     .logo{
         text-decoration: none;
