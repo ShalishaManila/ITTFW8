@@ -1,6 +1,4 @@
-.img-grid{
+.imggrid{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-    max-width: 700px;
 }

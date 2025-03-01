@@ -3,3 +3,27 @@
 @import "header";
 @import "footer";
 @import 'imggrid';
+
+main{
+    margin-left: vars.$left-margin;
+    margin-right:vars.$right-margin;
+    max-width: 100rem;
+    margin-inline: auto;
+    padding-inline: auto;
+}
+
+.titlesection{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    font-family: vars.$main-font;
+    &_firsthalf{
+        width: 55%;
+        >p{
+            color:blue;
+        }
+        h2 >.titlecolor{
+            color:blue;
+        }
+    }
+}
