@@ -1,4 +1,82 @@
-.imggrid{
+
+.imggrid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    gap: 10px;
+    max-height:700px;
 }
+
+img{
+    width:350px;
+    height:100%;
+    object-fit:cover;
+}
+
+    
+.div1 {
+    grid-row: span 4 / span 4;
+}
+
+.div2 {
+    grid-row: span 3 / span 3;
+}
+
+.div3 {
+    grid-row: span 6 / span 6;
+}
+
+.div4 {
+    grid-row: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 5;
+}
+
+.div5 {
+    grid-row: span 5 / span 5;
+    grid-column-start: 2;
+    grid-row-start: 4;
+}
+
+.div6 {
+    grid-row: span 5 / span 5;
+    grid-column-start: 3;
+    grid-row-start: 7;
+}
+
+.div7 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 1;
+    grid-row-start: 10;
+}
+
+.div8 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 2;
+    grid-row-start: 9;
+}
+
+.div9 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 3;
+    grid-row-start: 12;
+}
+
+.div10 {
+    grid-row: span 5 / span 5;
+    grid-column-start: 1;
+    grid-row-start: 16;
+}
+
+.div11 {
+    grid-row: span 6 / span 6;
+    grid-column-start: 2;
+    grid-row-start: 15;
+}
+
+.div12 {
+    grid-row: span 3 / span 3;
+    grid-column-start: 3;
+    grid-row-start: 18;
+}
+        
