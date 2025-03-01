@@ -7,7 +7,6 @@ header{
 }
 .logo{
     text-decoration: none;
-    font-family: vars.$main-font;
     font-style: normal;
     font-weight: bold;
     font-size: vars.$logo-font-size;
@@ -15,7 +14,6 @@ header{
 }
 
 .nav-area{
-    font-family: vars.$main-font;
     font-style: normal;
 }
 .nav-area li{

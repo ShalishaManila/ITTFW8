@@ -4,12 +4,13 @@
 @import "footer";
 @import 'imggrid';
 
+body{
+    font-family: vars.$main-font;
+}
+
 main{
     margin-left: vars.$left-margin;
     margin-right:vars.$right-margin;
-    max-width: 100rem;
-    margin-inline: auto;
-    padding-inline: auto;
 }
 
 .titlesection{

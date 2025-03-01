@@ -1,3 +1,28 @@
 @use 'vars';
 @import 'header';
 @import 'footer';
+
+body{
+    font-family: vars.$main-font;
+}
+
+main{
+    margin-left: vars.$left-margin;
+    margin-right:vars.$right-margin;
+}
+
+.firstsection{
+    display:flex;
+    justify-content: space-between;
+    &_titlearea{
+        width: 55%;
+    }
+    &_gridarea{
+        display:grid;
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr;
+        >p{
+            border-bottom: 1px solid gray;
+        }        
+    }
+}
