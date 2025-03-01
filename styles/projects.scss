@@ -2,36 +2,70 @@
 @import 'header';
 @import 'footer';
 
-body{
+body {
     font-family: vars.$main-font;
 }
 
-main{
+main {
     margin-left: vars.$left-margin;
-    margin-right:vars.$right-margin;
+    margin-right: vars.$right-margin;
 }
 
-.firstsection{
-    margin-top:20px;
-    margin-bottom:20px;
-    display:flex;
+.firstsection {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
     justify-content: space-between;
-    &_titlearea{
+
+    &_titlearea {
         width: 75%;
     }
-    &_gridarea{
-        display:grid;
+
+    &_gridarea {
+        display: grid;
         box-sizing: border-box;
         align-items: center;
         grid-template-columns: 1fr 1fr;
-        >p{
+
+        >p {
             border-bottom: 1px solid rgb(50, 50, 50, 0.1);
             font-weight: bold;
             padding-top: 10px;
             padding-bottom: 10px;
         }
-        .p_title{
-            color:gray;
+
+        .p_title {
+            color: gray;
         }
     }
+}
+
+.imagesection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    >img {
+        width: 100%;
+        max-height: 660px;
+        object-fit: cover;
+    }
+}
+
+.parasection {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.gallerysection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+    .imgcard {
+        >img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+        }
+    }
+
 }
