@@ -9,9 +9,12 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css" integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css"
+        integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="../styles/contact.css">
     <title>Contact</title>
@@ -32,21 +35,23 @@
 
     <main>
         <section class="firstsection">
-            <h2 class="title">Full set of great
-                features to make your
-                product fresh</h2>
-            <p>
-                Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.
-            </p>
-        </section>
-        <section class="formsection">
-            <label for="txt_fullname">FULL NAME</label>
-            <input type="text" id="txt_fullname" name="name" required="">
-            <label for="txt_email">EMAIL</label>
-            <input name="email" id="txt_email" placeholder="Your Email" required="">
-            <label for="txt_message">MESSAGE</label>
-            <input name="message" id="txt_message" placeholder="Your Message" cols="30" required="">
-            <button type="submit" class="btn_submit">Send Message</button>
+            <div class="firstsection_titlearea">
+                <h2 class="title">Full set of great
+                    features to make your
+                    product fresh</h2>
+                <p>
+                    Our favorite brands are our friends! We help them to achieve their goals, they help us to stay
+                    sharp.
+                </p>
+            </div>
+            <div class="firstsection_formarea">
+                <form action="autocomplete" off>
+                    <input type="text" id="txt_fullname" placeholder="Name" required="">
+                    <input name="email" id="txt_email" placeholder="Email" required="">
+                    <input name="message" id="txt_message" placeholder="Message" cols="30" required="">
+                    <button type="submit" class="btn_submit">Submit</button>
+                </form>
+            </div>
         </section>
         <section class="mapsection">
             <img src="../images/img-map.png" alt="">
